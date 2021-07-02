@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 1000;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.logo { 
+  font-size: 1.90rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation li a {
+    color: #ffffff;
+    font-size: 1.10rem;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.navigation li a:hover {
+    color:blueviolet;    
+}
+
+
+
+
+
+
+
+
+
+
+
