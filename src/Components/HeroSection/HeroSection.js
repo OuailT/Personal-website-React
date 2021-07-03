@@ -1,6 +1,11 @@
 import React from 'react'
 import './HeroSection.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Button } from '../Button/Button';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillTwitterCircle } from 'react-icons/ai';
+
 
 const HeroSection = () => {
     return (
@@ -11,19 +16,24 @@ const HeroSection = () => {
                 <h1>Tayarth Ouail</h1>
                 <p>Front-End web Developer
                  based in Paris</p>
-                <Link>Download Cv</Link>
+
+                <Button type="button"
+                        checkSize="regular"
+                        checkStyle="buttonV1"> Read More </Button>
+
                 <ul className="social__media">
                     <li> 
-                    <Link to="/"><img src="Picture/twitter.png" alt="Twitter"/></Link>
+                    <Link to="/"> <AiFillGithub className="icon"/> </Link>
+                    </li>
+
+                    <li> 
+                    <Link to="/"> <AiFillTwitterCircle className="icon"/> </Link>
                     </li>
 
                     <li>
-                     <Link to="/"> <img src="Picture/twitter.png" alt="Twitter"/></Link>
+                     <Link to="/"><AiFillLinkedin className="icon"/></Link> 
                     </li>
-
-                    <li> 
-                    <Link to="/"> <img src="Picture/twitter.png" alt="Twitter"/></Link>
-                    </li>
+                    
                 </ul>
             </div>
         </div>

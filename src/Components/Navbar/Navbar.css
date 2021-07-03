@@ -21,8 +21,7 @@ header {
 
 .navigation {
     position: relative;
-    display: flex;
-    
+    display: flex; 
 }
 
 .navigation li {
