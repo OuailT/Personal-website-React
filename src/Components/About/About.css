@@ -1,0 +1,28 @@
+.About {
+    background-color: bisque;
+    padding: 20px 100px;
+}
+
+
+.row {
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.col50 {
+    position: relative;
+    width: 50%;
+}
+
+
+.col50 .box-img {
+    width: 100%;
+    padding: 40px;
+}
+
+.col50 .box-img img {
+    max-width: 100%;
+}
